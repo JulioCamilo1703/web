@@ -1,0 +1,39 @@
+
+.desplegable {
+    position: relative;
+    display: inline-block;
+}
+
+.links {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    white-space: nowrap; /* Evita que los elementos se rompan en varias líneas */
+    right: 0; /* Ajusta la posición del menú desplegable a la derecha */
+}
+
+.links a {
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background-color: #f1f1f1;
+}
+
+.desplegable button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
