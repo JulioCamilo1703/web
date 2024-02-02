@@ -1,5 +1,5 @@
 <?php 
-    require '../config/database.php';
+   
     include ("loginCuenta.php");
     include ("Crearcuenta.php");
 ?>
