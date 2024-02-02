@@ -1,6 +1,6 @@
 <?php
 session_start();
-require '../../config/database.php';
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verificar la presencia de los datos necesarios
