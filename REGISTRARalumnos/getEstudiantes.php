@@ -1,5 +1,5 @@
 <?php
-require '../../config/database.php';
+
 
 $response = ['error' => 'No se encontraron datos']; 
 
