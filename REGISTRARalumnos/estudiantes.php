@@ -1,5 +1,5 @@
 <?php 
-require '../../config/database.php';
+
 $sqlEstudiantes = "SELECT id, nombreApellido, telf, correo, edad FROM estudiantes";
 $resultado = $conn->query($sqlEstudiantes);
 ?>
