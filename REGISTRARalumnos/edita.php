@@ -1,5 +1,5 @@
 <?php
-require '../../config/database.php';
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['id'], $_POST['nombre'], $_POST['telf'], $_POST['correo'], $_POST['edad'])) {
