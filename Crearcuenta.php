@@ -1,7 +1,5 @@
 <?php
 
-require '/database.php';
-
 if (isset($_POST['crearCuenta'])) {
     // Validación básica de campos
     $nombreUsuario = isset($_POST['nombreUsuario']) ? trim($_POST['nombreUsuario']) : '';
