@@ -1,5 +1,5 @@
 <?php
-require '/database.php';
+
 
 if (isset($_POST['botonLogin'])) {
 
